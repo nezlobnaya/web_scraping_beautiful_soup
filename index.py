@@ -7,4 +7,4 @@ r = requests.get("https://github.com/nezlobnaya")
 soup = bs(r.content)
 
 
-print(soup)
+print(soup.prettify())
